@@ -6,14 +6,21 @@ firmware, V25.
 
 ## Things to know
 
-You must be using Android V23, which you can get from [here][v23-community]
+You must be using Android V23, which you can get from [here][v23-gdrive]
 (using Fastboot to flash - the bootloader must be unlocked!), or from
 [here][v23-planet] (using the custom multi-boot recovery functionality to
-flash; requires V19 FW minimum).
+flash; requires V19 FW minimum). 
+
+**Attempts to update from any Android firmware version OTHER THAN V23 are not
+supported!**
 
 You should also be booted into NON-rooted Android on your Cosmo Communicator.
 Remember to flash the V25 rooted Android boot image when the OTA update is
 complete.
+
+## Downloads?
+
+You need to download this [file][v25-github] of the V25 OTA.
 
 ## Usage
 
@@ -30,5 +37,6 @@ you to update.
 
 When your Cosmo is plugged in, and has enough battery, begin the update.
 
-[v23-community]: https://github.com/planet-community-org/cosmo-v23-android-stock-fw
+[v23-gdrive]: https://drive.google.com/drive/folders/129BJt4sGV0qQ1dG1txQVBpJopJ19px-3?usp=sharing
 [v23-planet]: https://support.planetcom.co.uk/index.php/Cosmo_Android_Firmware_Manual_Installation
+[v25-github]: https://github.com/shymega/cosmo-v25-android-fw-ota/raw/main/Updatepackage.zip
